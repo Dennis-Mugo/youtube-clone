@@ -1,0 +1,7 @@
+.watch-left {
+  /* border: 1px solid black; */
+  /* height: 100%; */
+  flex: 0.6;
+  background-color: whitesmoke;
+  padding: 10px;
+}

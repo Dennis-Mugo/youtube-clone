@@ -1,0 +1,85 @@
+.video {
+  width: 250px;
+  margin: 15px;
+  cursor: pointer;
+  flex-grow: 1;
+}
+
+.video-right {
+  display: flex;
+  /* border: 1px solid black; */
+  width: 100%;
+  margin: 10px 0;
+}
+
+.video-right .video-thumbnail img {
+  width: 200px;
+}
+
+.video-thumbnail {
+  position: relative;
+  /* border: 1px solid black; */
+}
+
+.video-thumbnail img {
+  width: 100%;
+  /* height: 180px; */
+  /* object-fit: contain; */
+}
+
+.video-thumbnail small {
+  background-color: black;
+  color: white;
+  font-weight: 600;
+  padding: 0 6px;
+  border-radius: 3px;
+  font-size: 12px;
+  position: absolute;
+  right: 5px;
+  bottom: 7px;
+}
+
+.video-details {
+  display: flex;
+  margin-top: 8px;
+}
+
+.content-details {
+  margin-left: 5px;
+}
+
+.channel-title {
+  margin-top: 5px;
+}
+
+.bottom-detail {
+  margin-top: 5px;
+}
+
+.channel-title,
+.bottom-detail {
+  color: grey;
+}
+
+.bottom-detail {
+  display: flex;
+  align-items: baseline;
+}
+
+.video-title {
+  font-weight: 650;
+  font-size: 16px;
+  line-height: 1.5rem;
+}
+
+.bottom-detail .MuiSvgIcon-root {
+  font-size: 7px;
+  margin: 0 3px;
+}
+
+.video-right .video-details {
+  /* max-width: max-content; */
+  /* border: 1px solid black; */
+  /* flex-grow: 0.5; */
+  margin-left: 10px;
+}

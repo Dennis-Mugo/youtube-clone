@@ -1,0 +1,16 @@
+.watch-body {
+  flex: 0.85;
+  /* border: 1px solid black; */
+  flex-grow: 1;
+  height: 100vh;
+  overflow-y: hidden;
+  background-color: white-smoke;
+}
+
+.watch-body-content {
+  height: calc(100vh - 58px);
+  /* border: 1px solid black; */
+  display: flex;
+  overflow-y: scroll;
+  background-color: whitesmoke;
+}

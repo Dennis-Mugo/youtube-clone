@@ -1,0 +1,13 @@
+.search-results {
+  /* border: 1px solid black; */
+  flex-grow: 1;
+  overflow-y: hidden;
+  height: 100vh;
+}
+
+.search-result {
+  overflow-y: scroll;
+  height: calc(100vh - 58px);
+  background-color: whitesmoke;
+  padding: 13px 20px;
+}

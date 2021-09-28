@@ -1,0 +1,14 @@
+.videos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: whitesmoke;
+  height: calc(100vh - 58px);
+  overflow-y: scroll;
+}
+
+.test {
+  width: 250px;
+  height: 150px;
+  border: 1px solid black;
+}

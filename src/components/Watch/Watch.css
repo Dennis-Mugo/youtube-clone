@@ -1,0 +1,28 @@
+.stats {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+.stats-left {
+  color: gray;
+  display: flex;
+  align-items: center;
+}
+
+.stats-left .MuiSvgIcon-root {
+  font-size: 8px;
+  margin: 0 5px;
+}
+
+.like-stat {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.like-stat .MuiSvgIcon-root {
+  margin: 0 5px;
+  cursor: pointer !important;
+}

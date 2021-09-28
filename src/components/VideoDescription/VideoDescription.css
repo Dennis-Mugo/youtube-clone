@@ -1,0 +1,39 @@
+.video-desc {
+  padding: 10px;
+  display: flex;
+}
+
+.desc-container {
+  align-items: center;
+  flex-grow: 1;
+}
+
+.channel {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.desc {
+  margin-left: 15px;
+}
+
+.desc h3 {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.desc p {
+  color: #292b2c;
+  font-size: 14px;
+}
+
+.description {
+  margin-top: 20px;
+  margin-left: 15px;
+}
+
+.description p {
+  color: black;
+}

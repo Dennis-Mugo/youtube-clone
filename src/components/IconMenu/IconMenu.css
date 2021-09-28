@@ -1,0 +1,22 @@
+.icon-menu,
+.icon-menu-hover {
+  padding: 15px 5px;
+  cursor: pointer;
+}
+
+.icon-menu {
+  padding-bottom: 13px;
+}
+
+.icon-menu-hover:hover {
+  background-color: whitesmoke;
+}
+
+.icon,
+.menu-title {
+  text-align: center;
+}
+
+.menu-title {
+  font-size: 12px;
+}

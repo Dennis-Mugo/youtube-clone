@@ -1,0 +1,43 @@
+.comment-item {
+  /* border: 1px solid black; */
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.comment-right {
+  margin-left: 10px;
+  flex-grow: 1;
+}
+.comment-title {
+  display: flex;
+  align-items: baseline;
+}
+
+.comment-author {
+  font-weight: 600;
+  margin-right: 10px;
+}
+
+.publish-time {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: 500;
+}
+
+.comment-text {
+  font-weight: 500;
+  color: #292b2c;
+  padding: 10px 0;
+}
+
+.thumbs-container {
+  display: flex;
+}
+
+.like-stat {
+  font-weight: 500;
+}
+
+.like-stat .MuiSvgIcon-root {
+  font-size: 19px !important;
+}
