@@ -11,7 +11,7 @@ react-youtube module
 
 # Features
 
-Search videos
-Watch videos
-View video comments
+Search videos <br>
+Watch videos <br>
+View video comments <br>
 Google authentication
