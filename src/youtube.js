@@ -1,8 +1,6 @@
-import { connectFirestoreEmulator } from "@firebase/firestore";
-
 const clientId =
   "814919894202-l54frd207jap5gtoc8kd5oa8ldggd2uj.apps.googleusercontent.com";
-const apiKey = "AIzaSyC4s-jqXp1tlvvmzuCLFaR7wA_lmCFc7kE";
+const apiKey = "Your API Key";
 const rootUrl = "https://www.googleapis.com/youtube/v3";
 
 const youtube = {
